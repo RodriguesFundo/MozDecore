@@ -1,0 +1,142 @@
+/* Reset CSS */
+
+  
+   
+.banner {
+  display: flex;
+  flex-direction: column; /*Direcao da organizacao do conteudo, neste caso, em coluna*/
+  justify-content: flex-end; 
+  text-align: center;
+  padding: 20px 10px;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+
+.banner-content {
+  max-width: 600px; /* Limita a largura do conteúdo da seção */
+  margin: 0 auto; /* Centraliza horizontalmente o conteúdo */
+  background-color: rgba(255, 255, 255, 0.8); /* Adiciona um fundo translúcido para o texto */
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 40%;
+}
+.banner h1 {
+  text-align: left; /*Alinhar o text a esquerda*/
+  margin-bottom: 20%; /*Espaceamento a baixo*/
+  margin-left: 13%;  /*Espaceamento a esquerda*/
+  color: #ff5656; /*Cor das letras*/
+  font-family: 'Satisfy', cursive; /*Fonte de texto*/
+  letter-spacing: 2px; /* Espaçamento entre as letras */
+  font-size: 98px; /* Tamanho da fonte */
+}
+.banner h2 {
+  margin-bottom: 20px; /*Espaceamento a baixo*/
+}
+
+.button {
+  display: inline-block; /*Posicionamento, neste caso, em uma linha/bloco*/
+  padding: 10px 20px; /*Tamanho do botao*/
+  background-color: #333; /*Cor de fundo*/
+  color: #fff; /*Cor do texto*/
+  border-radius: 5px; /*Curvas nas pontas*/
+  text-decoration: none; /*Decoracao do texto, neste caso, nenhuma*/
+}
+
+.button:hover { /*Quando colocamos o muse por cima do botao*/
+  background-color: #444; /*Muda cor de fundo para esta cor*/
+}
+
+
+
+  .destaques {
+    padding: 50px 10px;
+    background-color: #f5f5f5;
+  }
+  
+  .destaques h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px; /* largura máxima para evitar que os produtos se espalhem demais */
+    margin: 0 auto; /* centraliza o contêiner de produtos na página */
+  }
+  
+  .container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    width: 30%; /*Tamanho */
+    height: 350px; /*Altura*/
+    border-radius: 10px; /*Curva nas pontas*/
+    background-size: cover; /*Tamnho do background*/
+    background-position: center; /*Centralizar as imagens*/
+    margin: 10px; /*Espaceamento a esquerda, cima, a direita, e baixo */
+  }
+
+
+  .describe{
+    margin: 0 auto; /* Centraliza horizontalmente o conteúdo */
+    background-color: rgba(255, 255, 255, 0.8); /* Adiciona um fundo translúcido para o texto */
+    max-width: 150px; /* Limita a largura maxima do conteúdo da seção */
+    padding: 20px; /*Tamanho interno*/
+    text-align: center; /*Centralizar o texto*/
+    border-radius: 5px; /*Curva nas pontas*/
+    margin-top: 40%; /*Espaceamento acima*/
+  }
+  span{
+
+    text-decoration: line-through; /*Decooracao do texto, neste caso, Linha no meio da palavra*/
+    font-style: italic; /*Fonte italica*/
+    font-size: 12px; /*Tamanho da fonte*/
+  }
+  .new{ 
+
+    display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff5656; 
+  color: #fff;
+  border-radius: 15px;
+  text-decoration: none;
+  }
+
+  /* Imagem de fundo de cada item */
+  #item1{
+    background-image: url('../img/img1.jpg');
+  }
+  #item2{
+    background-image: url('../img/img2.jpg');
+  }
+  #item3{
+    background-image: url('../img/img3.jpg');
+  }
+  #item4{
+    background-image: url('../img/img4.jpg');
+  }
+  #item5{
+    background-image: url('../img/img5.jpg');
+  }
+  #item6{
+    background-image: url('../img/img6.jpg');
+  }
+  #item7{
+    background-image: url('../img/img7.jpg');
+  }
+  #item8{
+    background-image: url('../img/img8.jpg');
+  }
+  #item9{
+    background-image: url('../img/img9.jpg');
+  }
+  
+  /* ----------------------------- */
+  

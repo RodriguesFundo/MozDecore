@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0 auto; 
+  max-width: 96%;
+  font-family: Arial, sans-serif;
+}
+/* ---------------------------------------- */
+.header {
+    display: flex; 
+    justify-content: space-between;  /*Espaco entre os elementos, neste caso, espaco entre eles*/
+    align-items: center; /*Alinhamento dos elementos, neste caso, no centro*/
+    padding: 10px; /*Tamanho do cabecalho*/
+    background-color: #f5f5f5; /*Cor de fundo*/
+  }
+  
+
+  .logo img { /* Imagem que esta na classe logo*/
+    margin-left: 5%; /* Espaco externo a esquerda*/
+    display: block; /* Disposicao na linha*/
+    max-width: 100%; /* Tamanho maximo da imagem*/
+    height: auto; /* Altura da imagem, neste caso, automatica referente ao container pai*/
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style-type: none; /* Estilo da lista, neste caso, nenhum. (Tirar bullets)*/
+    align-items: center; /*Alinhamento dos elementos, neste caso, no centro*/
+  }
+  
+  .navbar li {
+    font-size: 20px; /*Tamanho da letra*/
+    margin-right: 10px; /*Espaceamento a direita*/
+  }
+  
+  .navbar li:last-child {
+    margin-right: 0; /*Espaceamento a direita deve ser de 0, fixo*/
+  }
+  
+  .navbar a {
+    text-decoration: none; /*Decoracao do link, neste caso, nenhum*/
+    color: #333; /*Cor do texto*/
+    font-weight: bold; /*Tamanho/Tipo da fonte, neste caso, negrito*/
+  }
+
+/* ---------------------------------------- */
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .devs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .dev {
+    margin: 10px;
+    text-align: left;
+
+    width: 18%;
+  }
+  
+  .dev p {
+    font-weight: bold;
+    
+  }
+  
+  .dev a {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 5px;
+    height: 50px; /* ajusta a altura dos links */
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .dev a img {
+    margin-right: 10px; /* ajusta a distância entre o ícone e o texto */
+  }
+  
+  
+
+  
