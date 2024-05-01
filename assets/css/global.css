@@ -49,6 +49,10 @@ body {
     font-weight: bold; /*Tamanho/Tipo da fonte, neste caso, negrito*/
   }
 
+   a:hover{
+    color: #c0a5a5;
+  }
+
 /* ---------------------------------------- */
 
   footer {
